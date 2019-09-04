@@ -1,0 +1,253 @@
+/*
+Theme Name: Clean Portfolio Child
+Theme URL: http://thebrinkonline.org
+Description: Clean Portfolio Child Theme
+Author: The Brink
+Author URL: http://thebrinkonline.org
+Template: cleanportfolio
+Version: 1.0.0
+Text Domain: cleanportfolio-child
+*/
+
+.single-post .singular-header-image { display: none; }
+
+.site-description { font-family: 'Karla', sans-serif;
+	                font-size: 22px;
+					font-weight: 700;
+					background-color: black;
+					transform: rotate(-2deg);
+					padding: 1px 6px 1px;
+					position:relative;
+					top: 29px;
+					color: white;
+					}
+
+
+.site-title a { font-family: 'Karla', sans-serif;
+				background-color: black;
+				position: relative;
+				top: 1px;
+				padding: 1px 8px 1px;
+				color: white !important;
+				font-size: 45px;
+				font-weight:600;
+				text-transform: uppercase;
+				font-style: normal;
+				}
+	
+.site-title a:hover, .site-title a:focus {
+		   	text-decoration: none !important;
+    		color: #F8155A !important;
+			}
+
+.site-branding { background:none !important;
+	}
+
+.primary-menu {font-weight: 700;
+}
+
+.social-navigation .icon {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.in-tag, footer.entry-meta span:nth-child(4) { display: none; }
+
+.social-media-icon-bottom {	font-weight: 900;
+							font-size: 50px;
+							}
+
+.with-line-above {	border-top: 2px solid #000;
+					}
+
+.licence-widget {
+	clear: both;
+	color: white;
+	background-color: #222;
+	font-size: 14px;
+	font-size: 0.875rem;
+	position: relative;
+	text-align: center;
+	padding: 74px;
+	text-transform: uppercase;
+}
+
+.licence-widget a {
+	color:white;
+}
+
+#content h2.entry-title a {
+         font-family: 'Karla', sans-serif; 
+
+
+}
+
+.shared-counts-wrap.style-buttons .shared-counts-button {
+  background-color: #000000 !important;
+}
+
+.shared-counts-wrap.style-buttons .shared-counts-button:hover {
+  background-color: #323232 !important;
+}
+
+.shared-counts-icon svg:hover{
+	color: #F8155A !important;
+}
+
+.support-us {
+	font-size: 30px;
+	font-weight: 200;
+	font-family: 'Karla', sans-serif;
+	}
+
+.Environmental-commitment {
+	font-size: 30px;
+	font-weight: 200;
+	font-family: 'Karla', sans-serif;
+}
+
+article.post-337 { 
+	background-image: url("http://thebrinkonline.org/wp-content/uploads/2019/04/caravana-river.jpg"); 
+	background-position: center center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.support-page{ 
+	color:black;
+	background:white;
+}
+
+.entry-content .content-box.single{
+	border: 5px solid;
+	border-color: #F8155A;
+	background-color: white;
+	color: #F8155A;
+	font-size: 1.75rem;
+	font-weight: 800;
+}
+
+.entry-title{
+	color: #ffffff;
+	background: black;
+	transform: rotate(0.5deg);
+}
+
+.entry-title a {
+	color: #ffffff;
+}
+
+.entry-content .content-box .title {
+	margin: -2rem -2rem 1rem -2rem;
+	padding: 0.5rem 2rem 0.5rem 1rem;
+	display: block;
+	font-weight: 800;
+	color: white !important;
+	font-size: 2.25rem;
+	background: #F64D2B;
+	text-transform: uppercase;
+}
+
+.entry-content .content-box.bfb1{
+	border-color: #F64D2B;
+}
+
+.entry-content .content-box.bfb1{
+	background-color: white;
+}
+
+.entry-content .content-box.bfb1.title {
+	background: #e22828;
+	text-decoration: none !important;
+}
+ 
+.entry-content .content-box {
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 2rem 2rem 1rem 2rem;
+	font-weight: normal;
+	margin: 2rem 0rem 0rem 0rem;
+	color: black;
+}
+
+/*
+support page boxes
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+	float: left;
+	width: 33.33%;
+	padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.flex-container {
+  display: block !important;
+  flex-wrap: nowrap;
+  background-color: transparent;
+}
+
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 31.33% !important;
+  margin: 1% !important;
+  text-align: center;
+}
+
+@media screen and (max-width:800px) {
+  	.flex-container .box {
+    width:100%;
+  }
+}
+
+.get-in-touch {
+	color: #F8155A;
+}
+
+.get-in-touch a:hover, .get-in-touch a:focus {
+	text-transform: uppercase;
+}
+
+.email-box {
+	background: black;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+
+.email-box a:hover{
+	color: #F8155A
+	}
+
+/* keep about menu on screen
+	*/
+
+@media screen and (min-width: 1024px) {
+ 
+ #site-navigation {
+    padding-left: 50px !important;
+   }  
+}
+
+/* social menu rearangement
+	*/
+
+@media screen and (min-width: 64em) {
+	.navigation-classic .social-top {
+		display: block;
+		float: left;
+	}	
+	#social-search-wrapper .menu-inside-wrapper .menu-social-container {
+	    display: none;
+	}
+}
